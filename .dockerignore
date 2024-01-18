@@ -1,0 +1,8 @@
+**vendor**
+.env**
+Dockerfile
+package-lock.json
+**.log
+.git**
+.dockerignore
+.scannerwork

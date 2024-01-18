@@ -1,0 +1,88 @@
+.register-div {
+    width: calc(100vw - 10px);
+    justify-items: baseline !important;
+    display: flex;
+    flex-direction: column;
+    justify-items: baseline;
+}
+
+.register-menu {
+    margin: auto auto;
+    align-self: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto auto;
+    height: 50%;
+    width: 50%;
+    height: 250px;
+}
+
+.div-zipcode-search {
+    display: flex;
+}
+
+.div-zipcode-search-img {
+    margin-left: 20px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: var(--light-grey);
+    border-radius: 10px;
+}
+
+.div-zipcode-search-img:hover {
+    scale: 1.2;
+    background-color: var(--grey);
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.div-zipcode-search-img-icon {
+    align-self: center;
+    height: 45px !important;
+    width: 45px !important;
+}
+
+.register-form-row2 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+.register-form-row3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.register-div-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-div-input label {
+    font-size: var(--xxl);
+}
+
+.register-img {
+    margin: auto auto;
+    width: 100px;
+}
+
+@media screen and (max-width: 999px ) {
+    .register-form {
+        height: 100%;
+        width: 100%;
+    }
+
+    .register-menu {
+        position: absolute;
+        top: 0px;
+    }
+
+}

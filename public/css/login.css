@@ -1,0 +1,46 @@
+.login-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto auto;
+    height: calc(100% - 24px);
+    width: 100%;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto auto;
+    height: 50%;
+    width: 50%;
+}
+
+.login-div-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-div-input label {
+    font-size: var(--xxxl);
+}
+
+.login-img {
+    margin: auto auto;
+    width: 100px;
+}
+
+.login-register-link {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+    font-size: var(--xxl);
+}
+
+@media screen and (max-width: 999px ) {
+}
+
+@media screen and (min-width: 1000px ) {
+}
